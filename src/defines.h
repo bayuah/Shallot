@@ -19,10 +19,10 @@
 #define RSA_KEYS_BITLEN 0x400
 #define RSA_OPTM_BITLEN 0x380 // remember to subtract the length of e (in bits)
 // be sure to keep these constants in sync if you change them!
-#define RSA_PK_EXPONENT 0x10001ull
-#define RSA_PK_E_LENGTH 3
-#define RSA_EXP_DER_LEN 0x8C
-#define RSA_OPT_DER_LEN 0x77
+#define RSA_PK_EXPONENT 0x100000001ull
+#define RSA_PK_E_LENGTH 5
+#define RSA_EXP_DER_LEN 0x8E
+#define RSA_OPT_DER_LEN 0x79
 #define RSA_ADD_DER_OFF 2 // don't ask...
 #define SHA_REL_CTX_LEN 10 * sizeof(SHA_LONG)
 
